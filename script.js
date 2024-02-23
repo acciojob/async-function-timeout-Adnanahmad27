@@ -7,7 +7,7 @@ async function p2(text , delay){
     return new Promise((resolve, reject) => {
         setTimeout( () => {
             resolve(text);
-        } , delay*1000);
+        } , delay);
     });
 }
 
